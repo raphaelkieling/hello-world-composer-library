@@ -1,0 +1,29 @@
+{
+    "name": "r/r",
+    "description": "Estudo",
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "require": {
+        "silex/silex": "1.3.*@stable",
+        "doctrine/dbal": "2.5.*@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*@stable"
+    },
+    "authors": [
+        {
+            "name": "Raphael Kieling",
+            "email": "rapha_kieling@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raphael\\SON\\": "src/Raphael/SON"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "minimum-stability": "dev"
+}
